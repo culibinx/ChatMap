@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">ChatMap</string>
+    <string name="title_activity_maps">ChatMap</string>
+    <string name="title_activity_image">ImageView</string>
+    <string name="title_activity_image_select">ImageSelectView</string>
+    <!-- Dialogs -->
+    <string name="display_auth_title">Authorization</string>
+    <string name="display_marker_title">Marker</string>
+    <string name="display_name_title">Update information</string>
+    <string name="display_name_message">Enter your nickname</string>
+    <string name="avatar_email">Enter your avatar e-mail</string>
+    <string name="enable_point_notifications">Notify about new points</string>
+    <string name="enable_room_notifications">Notify me of new messages</string>
+    <string name="display_path_point">Channel name</string>
+    <string name="display_path_message">Enter the name of the channel</string>
+    <string name="display_ttl_message">Determine the time of action</string>
+    <string name="display_copy_marker_message">Would you like to copy the marker?</string>
+    <string name="display_leave_chat_message">Would you like to leave the chat?</string>
+    <string name="yes">Yes</string>
+    <string name="ok">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="leave">Leave</string>
+    <string name="delete">Delete</string>
+    <string name="copy">Copy</string>
+
+    <!-- camera -->
+
+    <string name="picture">Picture</string>
+    <string name="request_permission">This sample needs camera permission</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API</string>
+
+    <!-- photo -->
+
+    <string name="current_photo">Current photo</string>
+    <string name="all_photo">All photos</string>
+
+    <string name="your_nickname">"Your nickname: "</string>
+    <string name="current_channel">"Current channel: "</string>
+
+    <string name="location_failed">Location error</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="offline_mode">Offline</string>
+    <string name="add_failed">Error adding</string>
+    <string name="no_data">No data</string>
+    <string name="min_ttl_data">Minimum 1 min</string>
+    <string name="on_todo">On development stage</string>
+    <string name="select_other_channel">Select other channel</string>
+
+    <string name="days">" day "</string>
+    <string name="hours">" hour "</string>
+    <string name="minutes">" min "</string>
+    <string name="seconds">" sec"</string>
+    <string name="milliseconds">" msec"</string>
+
+    <!-- Marker -->
+
+    <string name="find_here">Somewhere here</string>
+
+    <!-- Location -->
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+
+    <string name="hint_enter_a_message">Enter message…</string>
+
+
+</resources>

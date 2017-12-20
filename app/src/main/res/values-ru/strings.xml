@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">ChatMap</string>
+    <string name="title_activity_maps">ChatMap</string>
+    <string name="title_activity_image">ImageView</string>
+    <string name="title_activity_image_select">ImageSelectView</string>
+    <!-- Dialogs -->
+    <string name="display_auth_title">Авторизация</string>
+    <string name="display_marker_title">Маркер</string>
+    <string name="display_name_title">Обновление информации</string>
+    <string name="display_name_message">Введите свой никнейм</string>
+    <string name="avatar_email">Введите свой avatar e-mail</string>
+    <string name="enable_point_notifications">Оповещать о новых точках</string>
+    <string name="enable_room_notifications">Оповещать о новых сообщениях</string>
+    <string name="display_path_point">Название канала</string>
+    <string name="display_path_message">Введите название канала</string>
+    <string name="display_ttl_message">Определите время действия</string>
+    <string name="display_copy_marker_message">Желаете скопировать маркер?</string>
+    <string name="display_leave_chat_message">Желаете покинуть чат?</string>
+    <string name="yes">Да</string>
+    <string name="ok">Готово</string>
+    <string name="cancel">Отмена</string>
+    <string name="leave">Выйти</string>
+    <string name="delete">Удалить</string>
+    <string name="copy">Копировать</string>
+
+
+    <!-- camera -->
+
+    <string name="picture">Фото</string>
+    <string name="request_permission">Необходимы разрешения для камеры</string>
+    <string name="camera_error">Этот девайс не поддерживает API камеры</string>
+
+    <!-- photo -->
+
+    <string name="current_photo">Текущее фото</string>
+    <string name="all_photo">Все фото</string>
+
+    <string name="your_nickname">"Ваш никнейм: "</string>
+    <string name="current_channel">"Текущий канал: "</string>
+
+    <string name="location_failed">Ошибка определения местоположения</string>
+    <string name="auth_failed">Ошибка аутентификации</string>
+    <string name="offline_mode">Вне сети</string>
+    <string name="add_failed">Ошибка добавления</string>
+    <string name="no_data">Нет данных</string>
+    <string name="min_ttl_data">Минимально 1 мин</string>
+    <string name="on_todo">В процессе разработки</string>
+    <string name="select_other_channel">Выберите другой канал</string>
+
+    <string name="days">" день "</string>
+    <string name="hours">" час "</string>
+    <string name="minutes">" мин "</string>
+    <string name="seconds">" сек"</string>
+    <string name="milliseconds">" мсек"</string>
+
+    <!-- Marker -->
+
+    <string name="find_here">Где-то здесь</string>
+
+    <!-- Location -->
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+
+    <string name="hint_enter_a_message">Введите сообщение…</string>
+
+
+</resources>

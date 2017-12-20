@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/gray_light">
+
+        <ImageButton
+            android:id="@+id/selectPhoto"
+            android:src="@android:drawable/ic_menu_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_stroke_only_accent"
+            android:layout_margin="5dp"
+            android:layout_gravity="right"/>
+
+        <ImageButton
+            android:id="@+id/uploadPhoto"
+            android:src="@android:drawable/ic_menu_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_stroke_only_accent"
+            android:layout_margin="5dp"
+            android:layout_gravity="right"/>
+
+        <ImageButton
+            android:id="@+id/deletePhoto"
+            android:src="@android:drawable/ic_menu_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_stroke_only_accent"
+            android:layout_margin="5dp"
+            android:layout_gravity="right"/>
+
+        <ImageButton
+            android:id="@+id/galleryPhoto"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_stroke_only_accent"
+            android:layout_margin="5dp"
+            android:layout_gravity="right"/>
+
+        <ImageButton
+            android:id="@+id/cameraPhoto"
+            android:src="@android:drawable/ic_menu_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_stroke_only_accent"
+            android:layout_margin="5dp"
+            android:layout_gravity="right"/>
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+        <com.github.chrisbanes.photoview.PhotoView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/hrefPhoto"
+            android:textColor="@color/gray_light"
+            android:background="@drawable/rounded_stroke_only_accent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top|right" />
+
+        <com.pitt.library.fresh.FreshDownloadView
+            android:id="@+id/pitt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top|center"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
